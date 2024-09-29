@@ -5,6 +5,7 @@ export default {
     extend: {
       backgroundImage: {
         bg: "url('/bg2.jpg')",
+        bgHome: "Url('/bg-eve.jpg')",
       },
     },
   },

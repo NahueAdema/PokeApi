@@ -42,6 +42,19 @@ class PokemonApiService {
       imageUrl: data.sprites.front_default,
     };
   }
+  public async getRandomPokemons(count: number): Promise<IPokemon[]> {
+    const randomPokemonIds = this.getRandomIds(count);
+    const pokemonPromises = randomPokemonIds.map((id) =>
+      this.getPokemonDetails(id)
+    );
+    return Promise.all(pokemonPromises);
+  }
+
+  private getRandomIds(count: number): string[] {
+    const ids = Array.from({ length: 898 }, (_, i) => (i + 1).toString());
+    const shuffled = ids.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
+  }
 }
 
 export default PokemonApiService;

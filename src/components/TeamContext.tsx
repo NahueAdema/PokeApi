@@ -1,4 +1,3 @@
-// TeamContext.tsx
 import React, { createContext, useContext, useState } from "react";
 import { IPokemon } from "../interfaces/IPokemon";
 

@@ -1,0 +1,21 @@
+const allTypes = [
+  "fuego",
+  "agua",
+  "planta",
+  "eléctrico",
+  "psíquico",
+  "hielo",
+  "dragón",
+  "siniestro",
+  "hada",
+  "normal",
+  "lucha",
+  "volador",
+  "veneno",
+  "tierra",
+  "roca",
+  "bicho",
+  "fantasma",
+  "acero",
+];
+export default allTypes;

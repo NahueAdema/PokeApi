@@ -41,7 +41,7 @@ const TeamPage: React.FC = () => {
       </div>
 
       <div className="flex flex-1 p-4 space-x-4">
-        {/* Pokémon List */}
+        {}
         <div className="flex flex-col w-2/3 p-2 space-y-4">
           <h2 className="text-2xl font-bold mb-4">Pokémon List</h2>
           {loading && <p className="text-center">Loading...</p>}
@@ -59,7 +59,7 @@ const TeamPage: React.FC = () => {
           )}
         </div>
 
-        {/* Team List */}
+        {}
         <div className="flex flex-col w-1/3 p-2 space-y-4">
           <h2 className="text-2xl font-bold mb-4">Your Team</h2>
           <TeamBuilder />
