@@ -15,7 +15,7 @@ const TriviaQuestion: React.FC<TriviaQuestionProps> = ({
   isAnswered,
 }) => {
   return (
-    <div className="p-4">
+    <div className="p-4 ">
       <h2 className="text-lg font-bold">{question}</h2>
       <div className="mt-2">
         {options.map((option, index) => (

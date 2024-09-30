@@ -6,6 +6,7 @@ export default {
       backgroundImage: {
         bg: "url('/bg2.jpg')",
         bgHome: "Url('/bg-eve.jpg')",
+        bgTrivia: "Url('/b2.jpg')",
       },
     },
   },
