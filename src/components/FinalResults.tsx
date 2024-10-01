@@ -24,7 +24,7 @@ const FinalResults: React.FC<FinalResultsProps> = ({
     gifUrl = "https://media3.giphy.com/media/11NlXRhFSZl4w8/giphy.gif";
   } else if (score >= 50) {
     finalMessage = "¡Buena, pero va tu puedes hacerlo mejor!";
-    gifUrl = "https://media.giphy.com/media/26gseAkFiW42OfaLu/giphy.gif";
+    gifUrl = "https://media.tenor.com/tEGO5Q-EQIcAAAAM/pokemon.gif";
   } else {
     finalMessage = "Jajaja ve a Practicar y no pierdas tu tiempo!";
     gifUrl =
