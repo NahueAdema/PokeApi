@@ -1,4 +1,3 @@
-// components/Trivia/TriviaQuestion.tsx
 import React from "react";
 
 interface TriviaQuestionProps {
