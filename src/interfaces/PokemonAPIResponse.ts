@@ -5,6 +5,6 @@ export interface PokemonAPIResponse {
   abilities: Array<{ ability: { name: string } }>;
   stats: Array<{ base_stat: number }>;
   sprites: {
-    front_default: string; // Add this line
+    front_default: string;
   };
 }
