@@ -22,7 +22,7 @@
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu_usuario/PokeApi.git
+   git clone https://github.com/NahueAdema/PokeApi.git
    ```
 2. Navega al directorio del proyecto:
    ```bash
